@@ -1,0 +1,22 @@
+{
+  "name": "rotunda",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "error-alarm": "node ./error-alarm/index.js",
+    "url-parser": "node ./url-parser/index.js",
+    "test-url-parser": "mocha ./url-parser/*.test.js",
+    "zoo": "node ./zoo/index.js",
+    "test-zoo": "mocha ./zoo/*.test.js",
+    "test": "npm run test-url-parser && npm run test-zoo"
+  },
+  "keywords": [],
+  "author": "Federico L. Amura",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1",
+    "mocha-sinon": "^2.1.0",
+    "sinon": "^8.1.1"
+  }
+}
